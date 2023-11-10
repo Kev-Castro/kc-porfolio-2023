@@ -17,6 +17,8 @@ a {
 header {
     nav {
         a {
+            font-size: 20px;
+
             &:not(:last-child) {
                 margin-right: 5px;
             }
