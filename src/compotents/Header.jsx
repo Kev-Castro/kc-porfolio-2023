@@ -6,7 +6,7 @@ function Header() {
             <h2 className="text-light">Kevin's Portfolio</h2>
 
             <nav>
-                <NavLink to="/">Home</NavLink>
+                <NavLink to="/">About Me</NavLink>
                 <NavLink to="/portfolio">Portfolio</NavLink>
                 <NavLink to="/contact">Contact</NavLink>
             </nav>

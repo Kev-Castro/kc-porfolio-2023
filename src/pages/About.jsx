@@ -1,9 +1,9 @@
-function Home() {
+function About() {
     return (
         <main className="container-fluid">
-            <h1>Home</h1>
+            <h1>About Me</h1>
         </main>
     )
 }
 
-export default Home
+export default About
