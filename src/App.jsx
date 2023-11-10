@@ -5,6 +5,7 @@ import Header from './compotents/Header'
 import About from './pages/About'
 import Portfolio from './pages/Portfolio'
 import Contact from './pages/Contact'
+import Resume from './pages/Resume'
 import Footer from './compotents/Footer'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/resume" element={<Resume />} />
       </Routes>
 
       <Footer />
