@@ -69,7 +69,7 @@ const Contact = () => {
     };
 
     return (
-        <div className="container mt-5 mb-5">
+        <main className="container mt-5 mb-5">
             <h2>Contact Me</h2>
             <form onSubmit={handleSubmit}>
                 <div className="mb-3">
@@ -127,7 +127,7 @@ const Contact = () => {
                     Submit
                 </button>
             </form>
-        </div>
+        </main>
     );
 };
 
