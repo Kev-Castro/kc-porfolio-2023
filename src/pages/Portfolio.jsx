@@ -1,5 +1,6 @@
 function Portfolio() {
     return (
+        // NEED TO ADD 3 MORE PROJECTS (COULD BE FAKE)
         <main className="container-fluid">
             <h1>Portfolio</h1>
             <div className="row row-cols-1 row-cols-md-3 g-4 text-center pt-4 pb-4">
@@ -8,7 +9,7 @@ function Portfolio() {
                         <img src="./images/musik.png" className="card-img-top" alt="..."></img>
                         <div className="card-body">
                             <h5 className="card-title">Musik</h5>
-                            <p className="card-text">Musik is an app to connect users who will be able to share songs and posts with each other. We want to create a community of music lovers who have similar interests. As fellow music lovers we want to have create a place just for music. This project was built to have like minded individuals to come together and create a community. Musik brings users to meet and post about music others are listening to. We learned how to make a social media hub for only music lovers.</p>
+                            <p className="card-text">Musik is an app designed to bring together all music lovers through one social media hub. Allows users to sample and share songs that pique their interest with fellow music enthusiasts through their profile. All choices are automatically pinned to their account and home page.</p>
                         </div>
                     </a>
                 </div>
@@ -23,10 +24,10 @@ function Portfolio() {
                 </div>
                 <div className="col">
                     <a href="https://kev-castro.github.io/weather_dashboard_challenge/" target="_blank" className="card mx-auto">
-                        <img src="./images/Weather_Dash.png" className="card-img-top" alt="..."></img>
+                        <img src="./images/coming_soon.gif" className="card-img-top CS" alt="..."></img>
                         <div className="card-body">
-                            <h5 className="card-title">Weather App</h5>
-                            <p className="card-text">This Webpage allows those who visit the chance to look up a City and get the current weather and also the 5 day weather forecast, it will also save your recent searches and populate them as button to go back to if need be.</p>
+                            <h5 className="card-title">In Progress!</h5>
+                            <p className="card-text">This App is in devlopment and will be updated once completed.</p>
                         </div>
                     </a>
                 </div>

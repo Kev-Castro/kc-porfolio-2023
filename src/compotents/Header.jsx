@@ -3,8 +3,9 @@ import { NavLink } from 'react-router-dom'
 function Header() {
     return (
         <header className="d-flex justify-content-between pt-1 ps-3 pe-3 pb-1 bg-black">
-
-            <img className="logo" src="images\logo.png" alt="" />
+            <a href="/">
+                <img className="logo" src="images\logo.png" alt="signature" />
+            </a>
             <nav className="navbar navbar-expand-md navbar-dark bg-black">
                 <button
                     className="navbar-toggler"

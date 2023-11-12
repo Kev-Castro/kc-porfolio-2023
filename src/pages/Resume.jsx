@@ -2,6 +2,7 @@ function Resume() {
     return (
         <main className="container-fluid">
             <h1>Resume</h1>
+            {/* Need to add a button to download resume */}
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas officiis odit tempora corporis molestiae adipisci quis voluptatum vitae neque voluptatem sed, a temporibus ratione at distinctio, asperiores qui eius ullam.
                 Sed laudantium quis placeat hic temporibus, voluptatem veritatis obcaecati soluta. Minus id voluptas debitis, quisquam eum eaque deleniti perspiciatis, consequatur quis necessitatibus alias natus odit velit reprehenderit distinctio, ad delectus.
                 Eos asperiores dolorem, cumque quo nobis inventore quaerat. Perferendis doloribus aliquid adipisci aperiam nesciunt excepturi provident natus, consectetur ratione. Corporis ipsam maxime consectetur beatae incidunt sed, soluta quos odio ea?
