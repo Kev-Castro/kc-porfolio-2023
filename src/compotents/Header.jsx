@@ -24,19 +24,19 @@ function Header() {
                     />
                     <Navbar.Collapse className="navText" id="basic-navbar-nav">
                         <Nav className="ms-auto">
-                            <NavLink to="/" onClick={handleNavCollapse}>
+                            <NavLink className="navlinks" to="/" onClick={handleNavCollapse}>
                                 About Me
                             </NavLink>
                             <br />
-                            <NavLink to="/portfolio" onClick={handleNavCollapse}>
+                            <NavLink className="navlinks" to="/portfolio" onClick={handleNavCollapse}>
                                 Portfolio
                             </NavLink>
                             <br />
-                            <NavLink to="/contact" onClick={handleNavCollapse}>
+                            <NavLink className="navlinks" to="/contact" onClick={handleNavCollapse}>
                                 Contact
                             </NavLink>
                             <br />
-                            <NavLink to="/resume" onClick={handleNavCollapse}>
+                            <NavLink className="navlinks" to="/resume" onClick={handleNavCollapse}>
                                 Resume
                             </NavLink>
                         </Nav>
