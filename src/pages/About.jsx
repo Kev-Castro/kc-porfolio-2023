@@ -4,11 +4,13 @@ function About() {
         <main className="text-center">
             <img className="headshot mx-auto" src="./images/headshot.png" alt="" />
             <h2>Discover My Work</h2>
-            <p className="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quidem omnis minus in. Commodi autem iusto nam aperiam nesciunt quo inventore ea praesentium vel nemo, ex necessitatibus amet dolores at!
-                Tempore nisi tenetur nam sed dolores praesentium adipisci cumque eum, voluptas assumenda suscipit nobis doloremque eius, dolore veniam porro deserunt quis accusantium odio optio! Dolore maiores necessitatibus ullam quis ipsam!
-                Eligendi, quas rem! A tenetur soluta eligendi dolorum, error dolor libero, earum at fugit adipisci explicabo quibusdam. Culpa incidunt ea similique, ullam ratione asperiores. Quae, ducimus eius. Aliquid, vero at.
-                Iusto assumenda voluptatum sed architecto eos explicabo aperiam impedit repudiandae voluptas repellat numquam voluptatibus eveniet delectus consectetur recusandae totam, asperiores sequi error inventore deleniti optio animi a tenetur? Ea, eveniet.
-                Ratione rem perspiciatis iste dolore omnis, optio libero ex officiis doloribus eligendi, vitae, aperiam repellendus quas. Obcaecati doloribus voluptatibus nemo reiciendis maxime ea quibusdam error nulla reprehenderit, magni itaque laborum!</p>
+            <p className="p-3">My name is Kevin Castro, but you probably already knew that.</p>
+            <hr className="divider"></hr>
+
+            <p className="p-3">As a kid I was always into electronics, computers especially. As I am sure we all were at some point, I was the go to I.T. person in my house. When all we really did was restart the router haha. I always wanted to know more about what was going on inside my computer and why it wasnt as fast as I wanted it to be so I would go off to highschool and join a new course called Cisco: Intro to Technology. While in that class I found a new liking to Computers, mostly the hardware part of things and went off to help build computers with my nephews and friends, made ethernet cables that I would use for my xbox and router. From there I went off to working full time and managing a couple of places and thought I needed some change. I started the Bootcamp with Rutgers and found myself loving hte ins and outs of computers all over again. Thoughout the Bootcamp I started to lean towards Frontend Development and thats where I want to basic my focus on now.</p>
+            <hr className="divider"></hr>
+            <p> Connect with me , interact with me and let's create amazing things together.</p>
+
 
 
         </main>

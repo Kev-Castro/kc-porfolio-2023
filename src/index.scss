@@ -9,12 +9,39 @@ a {
     text-decoration: none;
 }
 
+.navbar-toggler {
+    position: static;
+}
+
+/* Custom CSS to disable transitions for the navbar */
+.navbar-expand-md .navbar-collapse {
+    transition: none !important;
+}
+
+.show {
+    position: absolute;
+    top: 75px;
+    left: -235px;
+
+}
+
+.navbar-nav {
+    position: relative;
+    flex-direction: row;
+}
+
 .card {
     width: 18rem;
 }
 
+.divider {
+    position: relative;
+    left: 25%;
+    width: 50%;
+}
+
 .cardResume {
-    width: 50rem;
+    width: auto;
 }
 
 #root {

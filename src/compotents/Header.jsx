@@ -6,7 +6,7 @@ function Header() {
             <a href="/">
                 <img className="logo" src="images\logo.png" alt="signature" />
             </a>
-            <nav className="navbar navbar-expand-md navbar-dark bg-black">
+            <nav className="navbar navbar-expand-md navbar-dark bg-transparent">
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -19,23 +19,23 @@ function Header() {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav">
-                        <li className="nav-item">
+                    <ul className="navbar-nav d-flex">
+                        <li className="nav-item me-2">
                             <NavLink to="/" className="nav-link">
                                 About Me
                             </NavLink>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item me-2">
                             <NavLink to="/portfolio" className="nav-link">
                                 Portfolio
                             </NavLink>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item me-2">
                             <NavLink to="/contact" className="nav-link">
                                 Contact
                             </NavLink>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item me-2">
                             <NavLink to="/resume" className="nav-link">
                                 Resume
                             </NavLink>
