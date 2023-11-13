@@ -23,7 +23,7 @@ function Portfolio() {
                     </a>
                 </div>
                 <div className="col">
-                    <a href="https://kev-castro.github.io/weather_dashboard_challenge/" target="_blank" className="card mx-auto">
+                    <a href="https://github.com/Kev-Castro" target="_blank" className="card mx-auto">
                         <img src="./images/coming_soon.gif" className="card-img-top CS" alt="..."></img>
                         <div className="card-body">
                             <h5 className="card-title">In Progress!</h5>

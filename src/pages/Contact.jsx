@@ -123,7 +123,7 @@ const Contact = () => {
                     {errors.message && <p className="text-danger">{errors.message}</p>}
                 </div>
 
-                <button type="submit" className="btn btn-primary">
+                <button type="submit" className="btn btn-dark">
                     Submit
                 </button>
             </form>
