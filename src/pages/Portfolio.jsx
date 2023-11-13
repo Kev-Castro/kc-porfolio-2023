@@ -3,7 +3,7 @@ function Portfolio() {
         // NEED TO ADD 3 MORE PROJECTS (COULD BE FAKE)
         <main className="container-fluid">
             <h1>Portfolio</h1>
-            <div className="row row-cols-1 row-cols-md-3 g-4 text-center pt-4 pb-4">
+            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 text-center pt-4 pb-4">
                 <div className="col">
                     <a href="https://arcane-refuge-32686-92d3868f1b08.herokuapp.com/" target="_blank" className="card mx-auto">
                         <img src="./images/musik.png" className="card-img-top" alt="..."></img>
@@ -27,11 +27,12 @@ function Portfolio() {
                         <img src="./images/coming_soon.gif" className="card-img-top CS" alt="..."></img>
                         <div className="card-body">
                             <h5 className="card-title">In Progress!</h5>
-                            <p className="card-text">This App is in devlopment and will be updated once completed.</p>
+                            <p className="card-text">This App is in development and will be updated once completed.</p>
                         </div>
                     </a>
                 </div>
             </div>
+
 
         </main >
     )
