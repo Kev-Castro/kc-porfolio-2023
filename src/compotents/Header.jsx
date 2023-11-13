@@ -1,50 +1,50 @@
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import Container from 'react-bootstrap/Container';
+import { useState } from 'react';
 
 function Header() {
+    const [expanded, setExpanded] = useState(false);
+
+    const handleNavCollapse = () => {
+        setExpanded(false);
+    };
+
     return (
-        <header className="d-flex justify-content-between pt-1 ps-3 pe-3 pb-1 bg-black">
-            <a href="/">
-                <img className="logo" src="images\logo.png" alt="signature" />
-            </a>
-            <nav className="navbar navbar-expand-md navbar-dark bg-transparent">
-                <button
-                    className="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav"
-                    aria-controls="navbarNav"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav d-flex">
-                        <li className="nav-item me-2">
-                            <NavLink to="/" className="nav-link">
+        <header className=" justify-content-between bg-black">
+            <Navbar expand="lg" className="bg-color" expanded={expanded}>
+                <Container>
+                    <a href="/">
+                        <img className="logo" src="images\logo.png" alt="signature" />
+                    </a>
+                    <Navbar.Toggle
+                        aria-controls="basic-navbar-nav"
+                        onClick={() => setExpanded(!expanded)}
+                    />
+                    <Navbar.Collapse className="navText" id="basic-navbar-nav">
+                        <Nav className="ms-auto">
+                            <NavLink to="/" onClick={handleNavCollapse}>
                                 About Me
                             </NavLink>
-                        </li>
-                        <li className="nav-item me-2">
-                            <NavLink to="/portfolio" className="nav-link">
+                            <br />
+                            <NavLink to="/portfolio" onClick={handleNavCollapse}>
                                 Portfolio
                             </NavLink>
-                        </li>
-                        <li className="nav-item me-2">
-                            <NavLink to="/contact" className="nav-link">
+                            <br />
+                            <NavLink to="/contact" onClick={handleNavCollapse}>
                                 Contact
                             </NavLink>
-                        </li>
-                        <li className="nav-item me-2">
-                            <NavLink to="/resume" className="nav-link">
+                            <br />
+                            <NavLink to="/resume" onClick={handleNavCollapse}>
                                 Resume
                             </NavLink>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
         </header>
-    )
+    );
 }
 
-export default Header
+export default Header;

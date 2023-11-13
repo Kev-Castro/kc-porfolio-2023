@@ -17,29 +17,19 @@ footer {
     background-color: #eee;
 }
 
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    display: flow;
+    text-align: center;
+}
+
+.navtext {
+    text-align: center !important;
+}
+
 .footerText {
     margin-bottom: 0 !important;
-}
-
-.navbar-toggler {
-    position: static;
-}
-
-/* Custom CSS to disable transitions for the navbar */
-.navbar-expand-md .navbar-collapse {
-    transition: none !important;
-}
-
-.show {
-    position: absolute;
-    top: 75px;
-    left: -255px;
-
-}
-
-.navbar-nav {
-    position: relative;
-    flex-direction: row;
 }
 
 .card {
@@ -67,10 +57,6 @@ header {
         a {
             font-size: 20px;
 
-            &:not(:last-child) {
-                margin-right: 10px;
-            }
-
             &:hover,
             &.active {
                 text-decoration: underline;
@@ -92,4 +78,8 @@ main {
 .logo {
     max-width: 200px;
     max-height: 200px;
+}
+
+.header .navbar .navbar-expand-lg .navbar-light {
+    background: black;
 }
