@@ -18,7 +18,34 @@ function Portfolio() {
                         <img src="./images/prepAir.png" className="card-img-top" alt="..."></img>
                         <div className="card-body">
                             <h5 className="card-title">prepAir</h5>
-                            <p className="card-text">prepAir arms consumers with travel-related insight ahead of time ultimately allowing you to sit back, relax, and flip that out of office switch. You'll know before you go from weather statistics to surrounding towns, landmarks, and local hot spots via our interactive map.</p>
+                            <p className="card-text">prepAir arms consumers with travel-related insight ahead of time ultimately allowing you to sit back, relax, and flip that out of office switch. Know before you go from weather statistics to surrounding towns, landmarks, and local hot spots via our interactive map.</p>
+                        </div>
+                    </a>
+                </div>
+                <div className="col">
+                    <a href="https://nameless-mesa-64050-dec54f78b1de.herokuapp.com/" target="_blank" className="card mx-auto">
+                        <img src="./images/yokai.png" className="card-img-top" alt="..."></img>
+                        <div className="card-body">
+                            <h5 className="card-title">prepAir</h5>
+                            <p className="card-text">Yokai gives consumers an easy to access wishlists of other uses and also products to add to their very own! You'll easily navigate throught Yokai to make an account for yourself and begin making those easy to access lists you can always come back to.</p>
+                        </div>
+                    </a>
+                </div>
+                <div className="col">
+                    <a href="https://github.com/Kev-Castro" target="_blank" className="card mx-auto">
+                        <img src="./images/coming_soon.gif" className="card-img-top CS" alt="..."></img>
+                        <div className="card-body">
+                            <h5 className="card-title">In Progress!</h5>
+                            <p className="card-text">This App is in development and will be updated once completed.</p>
+                        </div>
+                    </a>
+                </div>
+                <div className="col">
+                    <a href="https://github.com/Kev-Castro" target="_blank" className="card mx-auto">
+                        <img src="./images/coming_soon.gif" className="card-img-top CS" alt="..."></img>
+                        <div className="card-body">
+                            <h5 className="card-title">In Progress!</h5>
+                            <p className="card-text">This App is in development and will be updated once completed.</p>
                         </div>
                     </a>
                 </div>

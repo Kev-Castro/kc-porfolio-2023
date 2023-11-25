@@ -13,7 +13,7 @@ function Header() {
 
     return (
         <header className=" justify-content-between bg-black">
-            <Navbar expand="lg" className="bg-color" expanded={expanded}>
+            <Navbar expand="lg" expanded={expanded}>
                 <Container>
                     <a href="/">
                         <img className="logo" src="images\logo.png" alt="signature" />
@@ -21,6 +21,7 @@ function Header() {
                     <Navbar.Toggle
                         aria-controls="basic-navbar-nav"
                         onClick={() => setExpanded(!expanded)}
+
                     />
                     <Navbar.Collapse className="navText" id="basic-navbar-nav">
                         <Nav className="ms-auto">
