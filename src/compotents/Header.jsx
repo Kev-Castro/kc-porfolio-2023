@@ -4,6 +4,8 @@ import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import { useState } from 'react';
 
+import logo from '../../images/kc_logo.png'
+
 function Header() {
     const [expanded, setExpanded] = useState(false);
 
@@ -16,7 +18,7 @@ function Header() {
             <Navbar expand="lg" expanded={expanded}>
                 <Container>
                     <a href="/">
-                        <img className="logo" src="images\logo.png" alt="signature" />
+                        <img className="logo" src={logo} alt="signature" />
                     </a>
                     <Navbar.Toggle
                         aria-controls="basic-navbar-nav"
