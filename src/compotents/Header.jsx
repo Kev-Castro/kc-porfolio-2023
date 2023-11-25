@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import { useState } from 'react';
 
-import logo from '../../images/kc_logo.png'
+import logo from '../../images/logo.png'
 
 function Header() {
     const [expanded, setExpanded] = useState(false);
