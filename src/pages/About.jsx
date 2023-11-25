@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Modal, Button } from 'react-bootstrap';
-import headshot from '../../images/headshot.png';
+import headshot from '../../images/Headshot.png';
 
 function About() {
     const [showModal, setShowModal] = useState(false);
