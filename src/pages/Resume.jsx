@@ -1,3 +1,5 @@
+import resume from '../../images/KC_resume_23-1.png'
+
 function Resume() {
     return (
         <main className="container-fluid">
@@ -12,7 +14,7 @@ function Resume() {
                     <a href="./images/KevinCastro.pdf" download="KevinCastro.pdf" className="btn btn-dark">Download Resume</a>
 
                 </div>
-                <img src="./images/KC_resume_23-1.png" className="card-img-top img-fluid" alt="resume"></img>
+                <img src={resume} className="card-img-top img-fluid" alt="resume"></img>
             </div>
 
 
