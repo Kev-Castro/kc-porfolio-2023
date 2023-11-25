@@ -1,6 +1,6 @@
 import musik from '../../images/musik.png'
 import prepAir from '../../images/prepAir.png'
-import yokai from '../../images/logo.png'
+import yokai from '../../images/yokai.png'
 import CS from '../../images/coming_soon.gif'
 
 function Portfolio() {
