@@ -1,9 +1,12 @@
-# React + Vite
+# Hi my name is Kevin Castro!
+# [My Portfolio](https://kevincastro.me)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I just graduted from Rutgers University's Full Stack Web Development Bootcamp!
+---
+Here what i learned while taking the course!
 
-Currently, two official plugins are available:
+![My Skills](https://skillicons.dev/icons?i=html,css,apollo,bash,bootstrap,express,git,github,gitlab,graphql,heroku,js,jquery,mongodb,mysql,netlify,nodejs,react,sass,sequelize,svg,tailwind,visualstudio,vscode,vite,webpack,fastapi)
+---
+Here are some things I am learning myself after taking the course! 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# kc-porfolio-2023
+![My Skills](https://skillicons.dev/icons?i=angular,appwrite,cs,c,docker,figma,gamemakerstudio,ai,java,unreal,windicss)
