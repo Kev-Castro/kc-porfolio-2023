@@ -71,6 +71,7 @@ const Contact = () => {
     return (
         <main className="container mt-5 mb-5">
             <h2>Contact Me</h2>
+            <hr className="my-5"></hr>
             <form onSubmit={handleSubmit}>
                 <div className="mb-3">
                     <label htmlFor="name" className="form-label">

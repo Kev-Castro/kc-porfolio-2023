@@ -8,6 +8,7 @@ function Portfolio() {
         // NEED TO ADD 3 MORE PROJECTS (COULD BE FAKE)
         <main className="container-fluid">
             <h1>Portfolio</h1>
+            <hr className="my-5"></hr>
             <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 text-center pt-4 pb-4">
                 <div className="col">
                     <a href="https://arcane-refuge-32686-92d3868f1b08.herokuapp.com/" target="_blank" className="card mx-auto">
